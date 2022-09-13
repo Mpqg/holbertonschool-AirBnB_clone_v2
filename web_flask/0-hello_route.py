@@ -15,5 +15,11 @@ def hello_hbnb():
     return "Hello HBNB!"
 
 
+""" @app.route("/holatu/",strict_slashes=False)
+def hola_tu():
+    return "Hola Yoshua que tal"
+    """
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
