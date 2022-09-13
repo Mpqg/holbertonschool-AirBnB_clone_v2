@@ -4,7 +4,7 @@
 # email(s): <justinmajetich@gmail.com>
 #           <ezra.nobrega@outlook.com>
 # Collaborators: Yoshua Lopez - Ma Paz Quirola - Laura Socarras
-#           
+#
 
 """This module defines a class to manage file storage for hbnb clone"""
 import json
