@@ -4,7 +4,7 @@
 # email(s): <justinmajetich@gmail.com>
 #           <ezra.nobrega@outlook.com>
 # Collaborators: Yoshua Lopez - Ma Paz Quirola - Laura Socarras
-#           
+#
 
 """ State Module for HBNB project """
 import os
