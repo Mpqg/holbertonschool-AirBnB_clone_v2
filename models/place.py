@@ -4,7 +4,7 @@
 # email(s): <justinmajetich@gmail.com>
 #           <ezra.nobrega@outlook.com>
 # Collaborators: Yoshua Lopez - Ma Paz Quirola - Laura Socarras
-#           
+#
 
 """ Place Module for HBNB project """
 import os
@@ -75,15 +75,14 @@ class Place(BaseModel, Base):
     amenity_ids = []
     reviews = relationship(
         'Review',
-        cascade="all, delete, delete-orphan",
+        cascade="delete",
         backref='place'
     ) if os.getenv('HBNB_TYPE_STORAGE') == 'db' else None
     if os.getenv('HBNB_TYPE_STORAGE') == 'db':
         amenities = relationship(
             'Amenity',
-            secondary=place_amenity,
-            viewonly=False,
-            backref='place_amenities'
+            secondary="place_amenity",
+            viewonly=False
         )
     else:
         @property
