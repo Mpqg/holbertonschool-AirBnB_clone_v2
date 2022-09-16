@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# File: 100-hbnb.py
-# Authors: Yoshua Lopez - Ma Paz Quirola - Laura Socarras 
 
 """"
 Script starts Flask web app

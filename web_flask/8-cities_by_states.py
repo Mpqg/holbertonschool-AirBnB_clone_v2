@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-# File: 8-cities_by_states.py
-# Authors: Yoshua Lopez - Ma paz Quirola - Laura Socarras 
-# email: 
 
 """"
 Script starts Flask web app

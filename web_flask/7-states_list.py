@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# File: 7-states_list.py
-# Authors: Yoshua Lopez - Ma Paz Quirola -Laura Socarras
 
 """"
 Script starts Flask web app
