@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Script starts Flask web app
-"""
+""" Test """
 
 from models import storage
 from flask import Flask, render_template
@@ -11,11 +9,13 @@ app = Flask(__name__)
 
 @app.teardown_appcontext
 def teardown_db(self):
+    """Test"""
     storage.close()
 
 
 @app.route("/states_list", strict_slashes=False)
 def states_list():
+    """Test"""
     states = storage.all("State")
     return render_template("7-states_list.html", states=states)
 
