@@ -1,15 +1,13 @@
 #!/usr/bin/python3
 
-""""
+"""
 Script starts Flask web app
     listen on 0.0.0.0, port 5000
     routes: /:
             /states_list: Display HTML and state info from storage;
 """
 
-from email.policy import strict
 from models import storage
-from models.state import State
 from flask import Flask, render_template
 
 app = Flask(__name__)
